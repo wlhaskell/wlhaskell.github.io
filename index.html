@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Rock, Paper, Scissor, Lizzard, Spock</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/cyborg.css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+
+</head>
+<body>
+
+	<div class="jumbotron">
+		<h1>Rock, Paper, Scissor, Lizzard, Spock!</h1>
+		<p>A game of chance</p>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-info" id="player-panel">
+					<div class="panel-heading">
+						<h1 class="panel-title">Player's Choice</h1>
+					</div>
+  				<div class="panel-body">
+  					<img id="playerChoiceImage" class="round-image">
+					</div>
+					<div class="panel-footer">
+						<h3 id="playerScore">Score:0</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h1 class="panel-title">Referee</h1>
+					</div>
+					<div class="panel-body">
+						<img class="round-image" src="assets/images/picard.jpg"/b>
+					</div>
+					<div class="panel-footer">
+						<h3 id="message">Ready to Play</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-info" id="opp-panel">
+					<div class="panel-heading">
+						<h1 class="panel-title">Computer's Choice</h1>
+					</div>
+  				<div class="panel-body">
+  					<img id="oppChoiceImage" class="round-image" src="assets/images/data.jpg"></img>
+					</div>
+					<div class="panel-footer">
+						<h3 id="oppScore" class="capital">Score:0</h3>
+					</div>
+				</div>
+			</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-2">
+				<img class="choice round-image" id="rock" src="assets/images/rock.png"/>
+			</div>
+			<div class="col-md-2">
+				<img class="choice round-image" id="paper" src="assets/images/paper.png"/>
+			</div>
+			<div class="col-md-2">
+				<img class="choice round-image" id="scissor" src="assets/images/scissor.png"/>
+			</div>
+			<div class="col-md-2">
+				<img class="choice round-image" id="lizzard" src="assets/images/lizzard.png"/>
+			</div>
+			<div class="col-md-2">
+				<img class="choice round-image" id="spock" src="assets/images/spock.png"/>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="site.js"></script>
+
+</body>
+</html>
